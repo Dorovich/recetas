@@ -1,0 +1,19 @@
+* RECETAS
+Un programa que imita una base de datos de recetas, escrito enteramente en Common Lisp.
+
+** Funcionalidades
+- Añadir y eliminar recetas
+- Guardar o cargar la lista de recetas en un fichero
+- Buscar entre las recetas (con filtros)
+
+** Instalación
+Antes de nada necesitas un compilador de Common Lisp. Recomiendo [[https://sbcl.org/][SBCL]], es el que he usado principalmente y está disponible para muchas arquitecturas y sistemas operativos.
+Una vez tengas uno, puedes ejecutar el programa usando los ficheros siguientes:
+- Windows: =recetas.bat=
+- Tipo Unix: =recetas.sh= (en un terminal)
+- O bien directamente con SBCL: =sbcl --script recetas.lisp= (en un terminal)
+Asegúrate de que =recetas.bat= y/o =recetas.sh= sean ejecutables (dependiendo de cuál uses).
+
+** Uso
+Desde la interfaz que ofrece el programa, puedes usar los comandos =ayuda= y =unidades=. Para enviar un comando al programa escríbelo y pulsa enter.
+Para salir del programa, usa el comando =salir=. Recuerda que al salir no se guarda tu lista de recetas, ¡para ello usa el comando =guardar=!
