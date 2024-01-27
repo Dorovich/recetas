@@ -15,5 +15,5 @@ Una vez tengas uno, puedes ejecutar el programa usando los ficheros siguientes:
 Asegúrate de que =recetas.bat= y/o =recetas.sh= sean ejecutables (dependiendo de cuál uses).
 
 ** Uso
-Desde la interfaz que ofrece el programa, puedes usar los comandos =ayuda= y =unidades=. Para enviar un comando al programa escríbelo y pulsa enter.
+Desde la interfaz que ofrece el programa, puedes usar los comandos =ayuda= y =unidades= para ver cómo funciona. Para enviar un comando al programa escríbelo y pulsa enter.
 Para salir del programa, usa el comando =salir=. Recuerda que al salir no se guarda tu lista de recetas, ¡para ello usa el comando =guardar=!
